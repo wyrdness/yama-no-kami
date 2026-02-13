@@ -1,10 +1,8 @@
 {
-  "category": "ENTITY_SPIRIT",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/yama-no-kami",
     "maintainers": [
       {
@@ -18,298 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "yama-no-kami",
     "name": "Yama-no-kami",
-    "aliases": [
-      {
-        "name": "山の神",
-        "language": "Japanese",
-        "meaning": "Mountain god"
-      },
-      {
-        "name": "Mountain God",
-        "language": "English",
-        "meaning": "Direct translation"
-      },
-      {
-        "name": "Ta-no-kami",
-        "language": "Japanese",
-        "meaning": "Rice field god (seasonal transformation)"
-      }
-    ],
+    "aliases": [],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Shinto Kami",
+    "subcategory": "Nature deity / Mountain god",
     "tags": [
-      "shinto",
-      "kami",
-      "deity",
-      "mountain-spirit",
-      "nature-deity",
-      "shapeshifter",
-      "seasonal-deity",
-      "active-worship",
-      "religious-tradition",
-      "regional-variations"
+      "folklore",
+      "mythology"
     ],
-    "status": "active",
+    "status": "documented",
     "description": {
-      "summary": "Mountain god or deity in Shinto tradition. Appears in various forms depending on region, protects mountains and forests, transforms seasonally into Ta-no-kami (rice field god). Active worship continues at Shinto shrines.",
-      "full": "Yama-no-kami, the mountain god or deity, is a significant kami (deity/spirit) in Japanese Shinto tradition and folklore. Unlike yokai, Yama-no-kami is a deity commanding reverence and respect, with active worship continuing at Shinto shrines throughout Japan. The kami's appearance varies significantly by region—depicted as an old woman in some areas, a beautiful woman in others, and even as a male deity in certain regions. One of the most distinctive aspects of Yama-no-kami is the seasonal transformation: in winter, the deity presides over mountains and forests, but in spring descends to the rice paddies and becomes Ta-no-kami (rice field god), returning to the mountains in autumn. This dual nature reflects the agricultural cycle and the deep connection between mountains and rice cultivation in Japanese culture. Yama-no-kami protects mountains, forests, and those who respectfully enter them—particularly hunters, woodcutters, and mountain travelers. Strict taboos surround interaction with the deity: cutting certain sacred trees, hunting on specific days, and disrespectful behavior can incur severe consequences including misfortune, accidents, or death. Hunters traditionally leave offerings before entering mountains and observe seasonal restrictions. The relationship with tengu (mountain spirits) varies by region, with some traditions viewing tengu as messengers or servants of Yama-no-kami. As a living religious tradition rather than folklore, Yama-no-kami worship reflects the ongoing Shinto reverence for nature spirits and the sacred character of mountains in Japanese spirituality."
+      "summary": "Yama-no-kami, the mountain god or deity, is a significant kami (deity/spirit) in Japanese Shinto tradition and folklore.",
+      "full": "Yama-no-kami, the mountain god or deity, is a significant kami (deity/spirit) in Japanese Shinto tradition and folklore. Unlike yokai, Yama-no-kami is a deity commanding reverence and respect, with active worship continuing at Shinto shrines throughout Japan. The kami's appearance varies significantly by region—depicted as an old woman in some areas, a beautiful woman in others, and even as a male deity in certain regions. One of the most distinctive aspects of Yama-no-kami is the **seasonal transformation**: in winter, the deity presides over mountains and forests, but in spring descends to the rice paddies and becomes **Ta-no-kami** (rice field god), returning to the mountains in autumn. This dual nature reflects the agricultural cycle and the deep connection between mountains and rice cultivation. Yama-no-kami protects mountains, forests, and those who respectfully enter them—particularly hunters, woodcutters, and mountain travelers. **Strict taboos** surround interaction with the deity, and violations can result in misfortune or death."
     },
     "etymology": {
-      "origin": "'Yama' means mountain and 'kami' means god/deity/spirit.",
-      "meaning": "Mountain god",
-      "first_use": "Ancient Shinto tradition"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Shinto Kami (deity)",
-      "subtype": "Nature deity / Mountain god",
-      "variant": "Japanese Shinto"
+      "type": "Nature deity / Mountain god",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "ta-no-kami",
-        "name": "Ta-no-kami",
-        "relationship": "seasonal_transformation",
-        "description": "Rice field god—Yama-no-kami's spring/summer form"
-      },
-      {
-        "id": "tengu",
-        "name": "Tengu",
-        "relationship": "associated_spirits",
-        "description": "Mountain spirits sometimes seen as messengers of Yama-no-kami"
-      },
-      {
-        "id": "yama-uba",
-        "name": "Yama-uba",
-        "relationship": "related_concept",
-        "description": "Mountain witch/hag, different but related mountain entity"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "features": [
-        {
-          "feature": "Form - Regional variation",
-          "description": "Old woman (common in some regions)",
-          "frequency": "common"
-        },
-        {
-          "feature": "Form - Regional variation",
-          "description": "Beautiful woman (other regions)",
-          "frequency": "common"
-        },
-        {
-          "feature": "Form - Regional variation",
-          "description": "Male deity (some regions)",
-          "frequency": "occasional"
-        },
-        {
-          "feature": "Shapeshifting",
-          "description": "Can change forms, seasonal transformation to Ta-no-kami",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Deity without fixed physical form. Appearance varies by region and context. Capable of shapeshifting and seasonal transformation."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Mountain protection",
-        "description": "Guards mountains, forests, and wilderness areas",
-        "frequency": "always",
-        "evidence_level": "religious_tradition"
-      },
-      {
-        "ability": "Seasonal transformation",
-        "description": "Becomes Ta-no-kami (rice field god) in spring, returns to mountains in autumn",
-        "frequency": "seasonal",
-        "evidence_level": "religious_tradition"
-      },
-      {
-        "ability": "Shapeshifting",
-        "description": "Changes forms and appearances",
-        "frequency": "common",
-        "evidence_level": "religious_tradition"
-      },
-      {
-        "ability": "Blessing and curse",
-        "description": "Bestows fortune on respectful visitors, misfortune on disrespectful ones",
-        "frequency": "always",
-        "evidence_level": "religious_tradition"
-      },
-      {
-        "ability": "Nature control",
-        "description": "Influence over mountain weather, wildlife, forest growth",
-        "frequency": "common",
-        "evidence_level": "religious_tradition"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "seasonal",
-      "disposition": "protective",
-      "social_structure": "deity (worshipped)",
-      "habitat_preference": [
-        "mountains (winter/autumn)",
-        "rice fields (spring/summer as Ta-no-kami)",
-        "forests",
-        "sacred mountain areas"
-      ],
-      "patterns": [
-        "Protects mountains and forests",
-        "Seasonal descent to rice paddies",
-        "Returns to mountains after harvest",
-        "Requires respect and offerings from visitors",
-        "Enforces taboos strictly",
-        "Blesses respectful hunters and travelers",
-        "Punishes disrespect and violations"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Throughout Japan in Shinto tradition. Mountain shrines and sacred sites across the country. Regional variations in appearance and specific practices.",
-      "continents": ["Asia"],
-      "countries": ["Japan"],
-      "regions": [
-        "Throughout Japan",
-        "Mountain regions particularly",
-        "Rural agricultural areas",
-        "Sacred mountain sites"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Ancient Shinto tradition",
+        "date": "Unknown",
         "circa": true,
-        "source": "Pre-historical religious tradition"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "Ongoing",
-          "description": "Active worship continues at Shinto shrines"
-        }
-      ]
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Ancient Shinto nature worship. Mountains are sacred in Japanese spirituality. Agricultural connection reflects rice cultivation importance.",
-      "earliest_accounts": "Pre-historical Shinto tradition",
-      "folklore_connections": "Distinct from yokai folklore—Yama-no-kami is worshipped deity, not folklore creature. Represents living religious tradition."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Ancient period",
-        "event": "Shinto nature worship origins",
-        "significance": "Mountain deity worship established in early Japanese religion",
-        "source": "Shinto tradition"
-      },
-      {
-        "date": "Agricultural development",
-        "event": "Ta-no-kami connection",
-        "significance": "Seasonal transformation belief develops with rice agriculture",
-        "source": "Agricultural religious practices"
-      },
-      {
-        "date": "Present",
-        "event": "Continuing worship",
-        "significance": "Active shrines and religious practices throughout Japan",
-        "source": "Contemporary Shinto practice"
-      }
-    ],
-    "modern_era": "Yama-no-kami worship continues at Shinto shrines throughout Japan. Mountain festivals, seasonal ceremonies, and traditional practices remain active in rural and mountain communities."
+    "timeline": []
   },
-
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Seasonal descent to rice fields",
-        "Hunter offerings before mountain entry",
-        "Sacred tree taboos",
-        "Seasonal festivals and ceremonies"
-      ],
-      "stories": [
-        "Hunters receiving blessings for proper respect",
-        "Misfortune befalling those who violate taboos",
-        "Seasonal transformation between mountain and field",
-        "Sacred mountain encounters"
-      ],
-      "beliefs": "Mountains are sacred. Proper respect must be shown to mountain deity. Seasonal cycle connects mountains to agriculture. Nature deities deserve reverence."
-    },
-    "indigenous": {
-      "cultures": [
-        "Japanese (Shinto)"
-      ],
-      "significance": "Living religious tradition of Shinto faith. Represents sacred nature of mountains in Japanese spirituality. Not folklore but active worship.",
-      "sensitivity_note": "Yama-no-kami is part of LIVING SHINTO RELIGIOUS TRADITION. This is not folklore or mythology but actual religious belief and practice. Approach with full religious respect.",
-      "respect_guidelines": "Recognize as active religious tradition, not folklore curiosity. Show respect for Shinto beliefs and practices. Do not appropriate or trivialize religious traditions. Consult with Shinto authorities for sacred site visits."
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Shinto religious texts and teachings",
-        "Folklore collections (with religious context)",
-        "Regional studies of mountain worship"
-      ],
-      "film_tv": [
-        "Films depicting Shinto traditions",
-        "Documentaries on Japanese spirituality",
-        "Anime with respectful Shinto themes"
-      ],
-      "other": [
-        "Mountain shrines and pilgrimage sites",
-        "Seasonal festivals",
-        "Traditional ceremonies"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
-    "researchers": [
-      {
-        "name": "Shinto priests and scholars",
-        "affiliation": "Various Shinto institutions",
-        "contribution": "Preservation and teaching of Yama-no-kami worship traditions",
-        "period": "Ongoing"
-      }
-    ],
-    "organizations": [
-      {
-        "name": "Association of Shinto Shrines",
-        "focus": "Preservation of Shinto religious traditions"
-      },
-      {
-        "name": "International Research Center for Japanese Studies",
-        "focus": "Academic study of Japanese religious traditions"
-      }
-    ]
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "shinto-tradition",
-      "type": "religious",
-      "title": "Shinto Religious Traditions and Practices",
-      "description": "Living religious tradition passed through Shinto institutions"
-    },
-    {
-      "id": "foster-2015",
-      "type": "book",
-      "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore",
-      "authors": ["Michael Dylan Foster"],
-      "publication": "University of California Press",
-      "date": "2015",
-      "isbn": "978-0520271029",
-      "note": "While focused on yokai, includes discussion of kami in folklore context"
-    }
-  ]
+  "sources": []
 }
