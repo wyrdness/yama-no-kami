@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/yama-no-kami",
     "maintainers": [
       {
@@ -16,72 +16,136 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "yama-no-kami",
     "name": "Yama-no-kami",
-    "aliases": [],
+    "aliases": [
+      { "name": "山の神", "language": "Japanese", "meaning": "Mountain kami; the standard kanji rendering" },
+      { "name": "Yamagami", "language": "Japanese", "meaning": "Alternative reading of the characters 山神; mountain god/spirit" },
+      { "name": "Ta-no-kami", "language": "Japanese", "meaning": "Rice-field god; the seasonal alter ego of Yama-no-kami, who descends from the mountain in spring" },
+      { "name": "Sansin", "language": "Korean", "region": "Korea", "meaning": "Mountain spirit; East Asian cognate deity" }
+    ],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Nature deity / Mountain god",
+    "subcategory": "Nature deity / Mountain kami",
     "tags": [
-      "folklore",
-      "mythology"
+      "shinto",
+      "japanese-mythology",
+      "kami",
+      "mountain-deity",
+      "agriculture",
+      "nature-spirit",
+      "japan",
+      "seasonal-transformation"
     ],
     "status": "documented",
     "description": {
-      "summary": "Yama-no-kami, the mountain god or deity, is a significant kami (deity/spirit) in Japanese Shinto tradition and folklore.",
-      "full": "Yama-no-kami, the mountain god or deity, is a significant kami (deity/spirit) in Japanese Shinto tradition and folklore. Unlike yokai, Yama-no-kami is a deity commanding reverence and respect, with active worship continuing at Shinto shrines throughout Japan. The kami's appearance varies significantly by region—depicted as an old woman in some areas, a beautiful woman in others, and even as a male deity in certain regions. One of the most distinctive aspects of Yama-no-kami is the **seasonal transformation**: in winter, the deity presides over mountains and forests, but in spring descends to the rice paddies and becomes **Ta-no-kami** (rice field god), returning to the mountains in autumn. This dual nature reflects the agricultural cycle and the deep connection between mountains and rice cultivation. Yama-no-kami protects mountains, forests, and those who respectfully enter them—particularly hunters, woodcutters, and mountain travelers. **Strict taboos** surround interaction with the deity, and violations can result in misfortune or death."
+      "summary": "A Shinto kami (divine spirit) of the mountains revered across Japan, who rules over mountains and forests in winter and descends to become Ta-no-kami (rice-field god) in spring. Worshipped by hunters, woodcutters, and farmers, Yama-no-kami is accompanied by strict taboos and is generally depicted as a female deity.",
+      "full": "Yama-no-kami (山の神, 'mountain kami') is one of the most widely worshipped nature deities in Japanese Shinto tradition and folk religion. The term functions both as a specific deity name and as a class of mountain kami found throughout Japan. Yama-no-kami is primarily considered a female deity — an older or mature divine woman — though regional traditions depict both female and male forms. The deity's most distinctive feature is seasonal transformation: in winter and autumn, Yama-no-kami presides over the mountains and forests, protecting those who enter respectfully (hunters, woodcutters, charcoal-burners). In spring, the deity descends from the mountain to the rice paddies, where it is honored as Ta-no-kami (田の神, rice-field god), governing agricultural fertility through the growing season. In autumn after the harvest, the deity returns to the mountain. This mountain-to-paddy migration encodes the Japanese agricultural cycle in divine terms and connects mountain forest ecology with wet-rice cultivation. Worship is associated with specific Kannabi (natural sacred areas, often mountains) which serve as the deity's Shintai (sacred physical body or dwelling place). Significant named examples include Ōyamatsumi (great mountain deity, father of the flower goddess Konohanasakuya-hime) and Oyamakui no Kami (god of Mount Hiei). Strict taboos govern interaction: violations can cause misfortune or death. Women are excluded from certain mountain sacred spaces in some regional traditions, reflecting Yama-no-kami's female nature and the danger of encountering a same-gendered deity."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Japanese; Shinto religious tradition. The reading yama-no-kami is native Japanese (kun'yomi); the alternate reading yamagami uses the on'yomi of the same characters.",
+      "meaning": "Yama (山): mountain. No: possessive particle. Kami (神): divine spirit, deity, god. 'The kami of the mountain' or 'mountain god'.",
+      "first_use": "Documented in the Kojiki (712 CE) and Nihon Shoki (720 CE); active worship predates written records"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Nature deity / Mountain god",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Kami (Shinto divine spirit)",
+      "subtype": "Nature deity — mountain",
+      "variant": "Pan-Japanese with regional variants"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "ta-no-kami", "name": "Ta-no-kami", "relationship": "subset", "description": "The rice-field form of the same deity; Yama-no-kami descends to become Ta-no-kami in spring and returns to the mountain in autumn" },
+      { "id": "oyamatsumi", "name": "Ōyamatsumi", "relationship": "subset", "description": "The great mountain deity of Japanese mythology; the most prominent named Yama-no-kami in the Kojiki and Nihon Shoki" },
+      { "id": "sansin", "name": "Sansin", "relationship": "similar", "description": "Korean mountain spirit tradition; East Asian cognate to Yama-no-kami, worshipped at mountain shrines throughout Korea" },
+      { "id": "shanshen", "name": "Shanshen", "relationship": "similar", "description": "Chinese mountain god tradition; cognate deity in the East Asian mountain deity complex" },
+      { "id": "yama-uba", "name": "Yama-uba", "relationship": "related", "description": "Ambiguous mountain hag yokai of Japanese folklore; shares the mountain setting and female characterization but is a distinct, morally dangerous figure rather than a worship deity" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Female form (most common)", "description": "Generally depicted as a female deity — an older or mature divine woman — across most Japanese regional traditions", "frequency": "common" },
+        { "feature": "Regional variability in form", "description": "Some regional traditions depict Yama-no-kami as a male deity or as a beautiful young woman; exact form depends on local tradition", "frequency": "occasional" }
+      ],
+      "morphology": "As a kami, Yama-no-kami does not have a fixed physical form in the way cryptids or monsters do. The deity manifests through sacred mountains (Kannabi), natural phenomena, and ritual encounters. When anthropomorphized in art and festival, depicted most often as a mature or elderly woman."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Seasonal transformation (mountain to paddy)", "description": "Descends from the mountain in spring to become Ta-no-kami (rice-field deity), governing agricultural fertility; returns to the mountain after the autumn harvest", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Governance of mountain resources", "description": "Controls access to mountain game, forest products, and timber; hunters and woodcutters seek the deity's blessing before entering the mountain", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Enforcement of taboos", "description": "Violations of Yama-no-kami taboos (bringing women into certain sacred spaces, disrespectful behavior in the mountain) result in misfortune, accidents, or death", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Agricultural fertility", "description": "In Ta-no-kami form, governs the fertility of the rice paddies and the success of the harvest", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["mountains", "forests", "rice paddies (seasonal)", "Kannabi sacred areas", "Shinto shrine precincts on mountainsides"],
+      "diet": "Not applicable (deity)",
+      "patterns": [
+        "Presides over mountains and forests from autumn through winter",
+        "Descends to rice paddies in spring, transforming into Ta-no-kami",
+        "Returns to the mountain after the autumn harvest",
+        "Accepts ritual offerings from hunters, woodcutters, and farmers at prescribed times",
+        "Enforces taboos around mountain sacred spaces, particularly regarding gender restrictions in certain regions"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Worshipped throughout Japan, with active shrines in all mountainous regions. The tradition is most prominent in rural agricultural and forestry communities. Cognate traditions extend across East Asia (Korea's Sansin, China's Shanshen, Vietnam's Son than).",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": [
+        "Throughout Japan",
+        "Particularly prominent in central Honshu",
+        "Significant tradition on Mount Hiei (Oyamakui no Kami)",
+        "Mount Fuji associated with Ōyamatsumi worship"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Mount Hiei (Hieizan)",
+        "location": {
+          "description": "Sacred mountain on the border of Kyoto and Shiga prefectures, Japan",
+          "country": "Japan",
+          "region": "Kinki (Kansai)"
+        },
+        "peak_period": "Pre-Buddhist antiquity to present",
+        "notes": "Home of Oyamakui no Kami; the Hiyoshi Taisha shrine at the foot of Mount Hiei is dedicated to this deity"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "0712-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Kojiki (712 CE) documents Ōyamatsumi and other mountain kami; worship predates written records"
+      },
+      "peak_activity_periods": [
+        { "period": "Pre-contact to present", "description": "Continuous Shinto worship tradition; Yama-no-kami shrines are active throughout Japan" }
+      ],
+      "seasonal_patterns": "The annual descent of Yama-no-kami from mountain to rice paddy in spring, and return in autumn, is observed through Shinto festivals at agricultural shrines throughout Japan."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Yama-no-kami is one of the foundational kami in Japanese Shinto tradition, rooted in animistic belief in the spiritual power of natural features. Mountains in Japan are frequently understood as the bodies or dwelling places (Kannabi) of kami, and the mountain-deity tradition predates the codification of Shinto. The deity's dual nature (mountain god in winter; field god in spring) reflects the dependence of Japanese wet-rice agriculture on mountain water sources and the ecological link between mountain forest and paddy.",
+      "earliest_accounts": "Ōyamatsumi is documented in the Kojiki (712 CE) as one of the oldest mountain kami. Active worship traditions at mountain shrines predate written records.",
+      "folklore_connections": "Connected to the broader East Asian mountain deity complex (Korean Sansin, Chinese Shanshen). In Japanese folklore, Yama-no-kami is distinct from but related to other mountain figures: Yama-uba (dangerous mountain crone), Tengu (mountain spirit/demon), and Yamabushi (mountain ascetics)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "0712-01-01", "event": "Kojiki compiled; documents Ōyamatsumi as a major mountain deity and father of Konohanasakuya-hime", "significance": "Earliest written documentation of named Yama-no-kami", "source": "Kojiki (712 CE)" },
+      { "date": "0720-01-01", "event": "Nihon Shoki compiled; additional mountain kami accounts recorded", "significance": "Second major textual source for Japanese mountain deity tradition", "source": "Nihon Shoki (720 CE)" }
+    ],
+    "modern_era": "Yama-no-kami worship remains active throughout Japan, integrated into seasonal agricultural festivals, Shinto shrine practice, and forestry/hunting community tradition. The deity's dual identity (mountain god / rice-field god) continues to structure seasonal ritual in many rural communities."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,6 +156,7 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
@@ -99,28 +164,75 @@
     "audio": [],
     "trace": []
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
+    "scientific": [
+      {
+        "name": "Agricultural ecology encoded as myth",
+        "description": "The seasonal transformation of Yama-no-kami into Ta-no-kami encodes the ecological reality of Japanese wet-rice agriculture: mountain snowmelt and forest water cycles govern paddy irrigation. The deity's annual migration from mountain to paddy mirrors the flow of water resources.",
+        "proponents": ["Folklorists and ecologists of East Asian agricultural traditions"],
+        "evidence_cited": ["Mountain-to-paddy seasonal migration maps onto the hydrological cycle", "Offering times (spring planting, autumn harvest) coincide with critical agricultural moments", "Mountain deities across East Asia are associated with water and irrigation"]
+      }
+    ],
     "skeptical": []
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Shinto mountain worship (yama-matsuri, mountain festivals)",
+        "Hunters' and woodcutters' rituals and prayers to Yama-no-kami",
+        "Ta-no-kami spring festival traditions across Japan",
+        "Taboo systems around sacred mountain areas (Kannabi)"
+      ],
+      "stories": [
+        "Ōyamatsumi in the Kojiki: father of Konohanasakuya-hime (Blossom Princess); his lineage links mountain power to agricultural fertility and imperial descent",
+        "The seasonal descent: each spring Yama-no-kami leaves the mountain for the rice paddy, returning after the autumn harvest — observed through ritual in farming communities throughout Japan",
+        "Taboo violation accounts: hunters, woodcutters, and travelers who fail to observe proper reverence in the mountain are struck with misfortune or killed by the deity's displeasure"
+      ],
+      "beliefs": "Yama-no-kami is revered as the sovereign of the mountain domain. Those who enter the mountain (hunters, woodcutters, charcoal-burners) must seek the deity's blessing and observe strict taboos. The mountain itself is often understood as the deity's sacred body (Kannabi). The seasonal dual-identity as Ta-no-kami makes Yama-no-kami one of the most important deities of the Japanese agricultural cycle."
     },
     "popular_culture": {
       "literature": [],
-      "film_tv": [],
+      "film_tv": [
+        "References in Studio Ghibli films depicting mountain kami traditions (e.g., Princess Mononoke, 1997, which engages with Japanese mountain deity concepts)"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Active worship at Hiyoshi Taisha (Shiga Prefecture) and numerous mountain shrines throughout Japan",
+        "Annual Ta-no-kami festivals in agricultural communities throughout Japan"
+      ]
     }
   },
+
   "research": {
     "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "organizations": [
+      { "name": "Kokugakuin University Shinto Studies", "url": "https://www.kokugakuin.ac.jp", "focus": "Academic study of Shinto traditions including mountain kami" }
+    ],
+    "ongoing_studies": "Yama-no-kami is studied within Japanese folklore studies (minzokugaku), Shinto theology, and comparative East Asian religion. The mountain-paddy dual-identity tradition is a significant topic in agricultural anthropology."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-yama-no-kami",
+      "type": "website",
+      "title": "Yama-no-kami",
+      "url": "https://en.wikipedia.org/wiki/Yama-no-kami",
+      "accessed": "2026-05-08"
+    },
+    {
+      "id": "kojiki-712",
+      "type": "archive",
+      "title": "Kojiki",
+      "date": "0712-01-01"
+    },
+    {
+      "id": "nihon-shoki-720",
+      "type": "archive",
+      "title": "Nihon Shoki",
+      "date": "0720-01-01"
+    }
+  ]
 }
